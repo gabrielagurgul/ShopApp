@@ -26,7 +26,7 @@ final class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     //1
-    allItems = LibraryAPI.shared.getItems()
+    allItems = ShopAPI.shared.getItems()
     
     //2
     tableView.dataSource = self
