@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 
-final class LibraryAPI {
+final class ShopAPI {
   // 1
-  static let shared = LibraryAPI()
+  static let shared = ShopAPI()
   private let persistencyManager = PersistencyManager()
   private let httpClient = HTTPClient()
   private let isOnline = false
